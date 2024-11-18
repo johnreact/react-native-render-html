@@ -68,6 +68,7 @@ export default function RenderHTMLConfigProvider(
     };
   }, [remoteErrorView, remoteLoadingView, profile]);
   return (
+    
     <RenderRegistryProvider
       renderers={renderers}
       elementModels={engine.getHTMLElementsModels()}>
